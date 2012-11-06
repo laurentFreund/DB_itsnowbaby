@@ -1,0 +1,11 @@
+.bgcarousel{ background:url(../images/bgQuotes.png) 0 0 repeat; margin:3px 0 0 0; padding:20px 0 16px 19px; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;}
+.jcarousel-skin-tango{overflow:hidden;height:205px; padding:0; width:940px;}
+.jcarousel-skin-tango .jcarousel-container-horizontal{width:778px;padding:0 60px 0 62px;}
+.jcarousel-list{overflow:hidden;}
+.jcarousel-skin-tango li{float:left;margin-right:22px; width:138px;}
+.jcarousel-skin-tango li a{display:inline-block;}
+.jcarousel-skin-tango li img{ margin-bottom:13px;}
+.jcarousel-skin-tango li span{ display:block;}
+.jcarousel-next-horizontal,.jcarousel-prev-horizontal{position:absolute;top:50px;width:26px;height:105px;cursor:pointer;background-repeat:no-repeat;z-index:100;background-position:0 -105px;}
+.jcarousel-next-horizontal{right:0;background-image: url(../images/button-next.png);}
+.jcarousel-prev-horizontal{left:0;background-image: url(../images/button-prev.png);}

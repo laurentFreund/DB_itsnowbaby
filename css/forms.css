@@ -1,0 +1,27 @@
+input[type="text"],input[type="file"],input[type="date"],input[type="mail"],input[type="tel"],input[type=password],textarea{border-radius: 5px; font-family:Arial, Helvetica, sans-serif;color:#fff;font-size:12px;vertical-align:middle;font-weight:normal;padding:7px 7px 7px 8px;margin:0;background: url(../images/input.png) 0 0 repeat;border:1px solid #474b57;outline:none;width:284px;}
+select{font-family:Arial, Helvetica, sans-serif;color:black;font-size:12px;vertical-align:middle;font-weight:normal;padding:7px 7px 7px 8px;margin:0;background: white;border:1px solid #474b57;outline:none;width:300px;border-radius:5px;}
+.formulaire label {display:block;min-height:40px;}
+/* Contact form */
+.form{position:relative; padding:3px 0 22px 0;}
+	.form fieldset{border:none;padding:0}
+	.form label {display:block;min-height:46px;}
+		.form input{ width:283px;}
+		.form textarea{height:150px;overflow:auto;width:920px; resize:none;}
+		.form .message{min-height:130px;}
+.buttons{position:relative; overflow:hidden; padding:34px 1px 0 0;}
+	.buttons em{position:relative; overflow:hidden; margin-right:16px;}
+.success, .error, .empty{display:none; text-align:left;top:0; left:10px;}
+.error, .empty{position:relative; color:red; font-size:13px;}
+.success, .success strong{ color:#2f2;}
+/* Search form */	
+#search{ padding:25px 0 50px 0;}
+#search input{ width:309px;padding:5px 7px 6px 7px;}
+#search .button{ margin:1px 0 0 15px;}
+/* Newsletter-form */
+#newsletter-form fieldset{border:none}
+#newsletter-form label{color:#909090;font-size:12px;display:block;margin-bottom:5px;}
+#newsletter-form input[type=text]{width:202px;margin-right:1px;padding:7px 9px;}
+#newsletter-form a{vertical-align:middle;width:30px;height:30px;display:inline-block;background-color:#000;background-image:url(../images/newsletter.png);background-position:50% 50%;background-repeat:no-repeat;}
+#newsletter-alt-form fieldset{border:none}
+#newsletter-alt-form input[type=text]{width:215px;margin-right:12px;}
+#newsletter-alt-form a{vertical-align:middle;}

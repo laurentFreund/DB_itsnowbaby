@@ -1,0 +1,10 @@
+*+html{overflow:auto;}
+.layouts-nav li a,dl.def-list dt span,#constuction-box,#intro-box{behavior:url(js/PIE.htc)}
+#text_slider div{background:none !important}
+#advanced ul li.trigger_adv > span,.dropcap,dl#accordion dt,.button,blockquote,input[type="text"],input[type=password],textarea,.box, .cs-buttons a, .bgcarousel, .boxbutton a,.button,.button1,.quotes{behavior:url(js/PIE.htc);position:relative}
+div.caption{background: url(../images/body.png) 50% 0 repeat;}
+.kwicks li{filter:alpha(opacity=50)}
+.kwicks li.active{filter:alpha(opacity=100)}
+footer .icons>a>img+img{filter:alpha(opacity=0)}
+*:first-child+html	.tabs2{ height:323px;}
+*:first-child+html	.dropcap span { margin-top:2px;}
