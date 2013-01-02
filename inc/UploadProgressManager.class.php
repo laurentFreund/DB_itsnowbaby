@@ -17,8 +17,11 @@ class UploadProgressManager {
          *      __personalFile:String		User temporary file name that is uploading
 	 *      __sentinell:String		A dedicated text file to save temporary files list
 	 */
-	var $__personalFile = '';
-	var $__sentinell = '/.__php__upm_sentinell__';
+  //	var $__personalFile = '';
+	//var $__sentinell = '/.__php__upm_sentinell__';
+
+  public $__personalFile = '';
+	public $__sentinell = '/.__php__upm_sentinell__';
 	
 	/**
 	 * Public constructor:
@@ -33,9 +36,12 @@ class UploadProgressManager {
 		$this->__sentinell = $tmpfolder.$this->__sentinell;
 		if(isset($_SESSION['tempfile']) && file_exists($_SESSION['tempfile']))
 			$this->__personalFile = $_SESSION['tempfile'];
-		else
-			$this->__personalFile = &$this->__getPersonalFile($tmpfolder, $pattern);
-			if($this->__personalFile !== false)
+		else {
+		   	$this->__personalFile = &$this->__getPersonalFile($tmpfolder, $pattern);
+					//$tmpVar = $this->__getPersonalFile($tmpfolder, $pattern);
+					//$this->__personalFile = &$tmpVar;
+		}	
+		if($this->__personalFile !== false)
 				$_SESSION['tempfile'] = $this->__personalFile;
 	}
 	

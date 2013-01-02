@@ -84,7 +84,8 @@ if(isset($_POST['title']))
 					if($extensionFile != 'ogv'){
 						$unlink = true;
 						/* convert */
-						system(escapeshellcmd("ffmpeg2theora ".$relative_link), $retval);
+						system(escapeshellcmd("/usr/local/bin/ffmpeg2theora ".$relative_link), $retval);
+						//						system(escapeshellcmd("ffmpeg2theora ".$relative_link), $retval);
 					}
 					else{
 						$retval = 0;
